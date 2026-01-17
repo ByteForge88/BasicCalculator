@@ -15,7 +15,7 @@ def open_calculator():
         print("Answer: " + str(value))
     elif operator == "/":
         if num2 == 0:
-            print("You cannot devide by 0!")
+            print("You cannot divide by 0!")
             open_calculator()
         else:
             value = num1 / num2
