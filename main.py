@@ -8,10 +8,10 @@ def open_calculator():
         value = num1 + num2
         print("Answer: " + str(value))
     elif operator == "-":
-        value = num1 + num2
+        value = num1 - num2
         print("Answer: " + str(value))
     elif operator == "*":
-        value = num1 + num2
+        value = num1 * num2
         print("Answer: " + str(value))
     elif operator == "/":
         if num2 == 0:
